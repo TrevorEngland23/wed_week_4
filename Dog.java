@@ -3,10 +3,7 @@ public class Dog implements Animal {
     private String sound;
 
     public String getSound() {
+        sound = "Bark Bark!";
         return sound;
-    }
-
-    public void makeSound() {
-        System.out.println("Woof! Woof!");
     }
 }

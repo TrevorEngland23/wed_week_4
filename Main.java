@@ -5,12 +5,14 @@ public class Main {
 
     public static void main(String[] args) {
         Bird cardinal = new Bird();
-        cardinal.getSound();
+        System.out.println(cardinal.getSound());
+       
 
         Dog winnie = new Dog();
-        winnie.getSound();
+        System.out.println(winnie.getSound());
 
         Cow spotters = new Cow();
-        spotters.getSound();
+        System.out.println(spotters.getSound());
+
     }
 }

@@ -2,10 +2,7 @@ public class Bird {
     private String sound;
 
     public String getSound() {
+        sound = "CaCAAWWW!";
         return sound;
-    }
-
-    public void makeSound() {
-        System.out.println("CACAAWWWW");
     }
 }
