@@ -5,4 +5,10 @@ public class Cow implements Animal{
         sound = "Moooooo!";
         return sound;
     }
+
+    @Override
+    public boolean canSwim() {
+        // TODO Auto-generated method stub
+        return false;
+    }
 }
